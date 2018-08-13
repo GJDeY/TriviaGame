@@ -1,24 +1,41 @@
-html {
-    padding: 10 px;
-    margin: 10px;
-}
-
-startButton {
-    color: blueviolet;
-
-}
 
 h1 {
 color: rgba(9, 85, 9, 0.63);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
-margin: 30px;
-padding: 5rem;
+margin: 10px;
+padding: 5px;
 
 }
 body{
-    background-color: aqua;
+    background-image: url();
+    background-repeat: initial;
+    background-color: rgb(96, 255, 255);
     text-align: center;
-    margin: 30px;
-    padding: 5rem;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 800rem;
+    border-style: double;
+    border-width: 15px;
+}
+
+.block {
+    float: center;
+    width: 25rem;
+    border: inset;
+    border-width: 1vh;
+    background-color: rgb(247, 230, 0);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25%;
 }
