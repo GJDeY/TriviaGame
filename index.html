@@ -16,24 +16,128 @@
 <h1>Trivia Time!</h1>
 <p1>Click the Start Game button to begin playing now!</p1>
 <br>
-<button type="button" class="block">Start Game</button>
+<button onclick="timer()">Start Game</button>
+<div id="countdown"></div>
 
 <body>
-    <div class="container"></div>
+    <div class="container">
 
-    <div class="timer">Time Remaining: </div>
+        <div class="timer">Time Remaining:
+            <span id="timer"></span>30 seconds
+        </div>
 
-    <p>
-        <div class="questionOne">Question 1. </div>
-        <div class="questionTwo">Question 2. </div>
-        <div class="questionThree">Question 3. </div>
-        <div class="questionFour">Question 4. </div>
-        <div class="questionFive">Question 5. </div>
-    </p>
+        <p>
+            <div class="questionOne">Question 1. What was Elvis' home called?</div>
+            <br>
+            <label class="container">Graceland
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Iceland
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Poland
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Promised Land
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <br>
 
-    <!-- jquery ready -->
-    <script src="assets/javascript/app.js"></script>
+            <div class="questionTwo">Question 2. What year was NSYNC's song 'bye bye bye' released?</div>
+            <br>
+            <label class="container">1999
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">2000
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">2001
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">2004
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <br>
+            </label>
+            <br>
 
+            <div class="questionThree">Question 3. What is the state bird of Illinois?</div>
+            <br>
+            <label class="container">Finch
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Sparrow
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Cardinal
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Bald Eagle
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <br>
+            </label>
+            <br>
+
+            <div class="questionFour">Question 4. What was the 1992 men's olympic basketball team nicknamed?</div>
+            <br>
+            <label class="container">The Incredibles
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">The Great Ones
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">The Supreme Team
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">The Dream Team
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <br>
+            </label>
+            <br>
+
+            <div class="questionFive">Question 5. What year was The Beach Boys' first album released?</div>
+            <br>
+            <label class="container">1942
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">1952
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">1962
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">1972
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <br>
+            </label>
+            <br>
+        </p>
+        <div id="numCorrect"> # Correct:
+            <div id="numIncorrect"></div> # Incorrect;
+        </div>
+        <!-- jquery ready -->
+        <script src="assets/javascript/app.js"></script>
+
+    </div>
     <footer>Thanks for playing! -GJD</footer>
 </body>
 

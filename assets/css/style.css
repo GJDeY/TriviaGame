@@ -5,7 +5,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 margin: 10px;
 padding: 5px;
-
+}
+.p1 {
+    font-size: 20px
 }
 body{
     background-image: url();
@@ -35,6 +37,14 @@ body{
     text-align: center;
 }
 
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
 footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25%;
