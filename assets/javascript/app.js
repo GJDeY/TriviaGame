@@ -126,9 +126,6 @@ $(document).ready(function () {
         if (i < 0) {
             alert('Time Expired!!');
         }
-        else {
-            setTimeout(onTimer, 30000);
-        }
     }
 
 
